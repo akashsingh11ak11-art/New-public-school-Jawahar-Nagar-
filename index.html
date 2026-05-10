@@ -2,24 +2,21 @@
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <title>New Public Senior Secondary School | Kota</title>
-    <meta name="title" content="New Public Senior Secondary School | Jawahar Nagar, Kota">
-    <meta name="description" content="Admissions Open 2025-26. Experience the premier English Medium Co-educational institution in Kota. 100% Board Results.">
-
-    <link rel="icon" href="https://i.ibb.co/PGCh4NhL/1000041976-removebg-preview.png" type="image/png">
-
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="NPSSS Kota | Admissions Open 2025-26">
-    <meta property="og:description" content="Nursery to Class XII English Medium. Secure your child's seat today at New Public Senior Secondary School.">
+    <!-- PRIMARY SEO -->
+    <title>New Public Senior Secondary School | Best RBSE School in Jawahar Nagar, Kota</title>
+    <meta name="description" content="New Public Senior Secondary School (NPSSS) Kota - Excellence in education since 1985. RBSE affiliated, modern labs, 100% results. Admissions open for Session 2026-27.">
+    <meta name="keywords" content="NPSSS Kota, New Public School Kota, Best school in Jawahar Nagar, RBSE school Kota, Science coaching Kota school, Nursery admission Kota">
+    <meta name="author" content="Apex Web Studio">
+    
+    <!-- OPEN GRAPH / SOCIAL SEO -->
+    <meta property="og:title" content="New Public Senior Secondary School | Kota">
+    <meta property="og:description" content="Nurturing young minds since 1985. Join the legacy of excellence in Kota. Admissions Open 2026-27.">
     <meta property="og:image" content="https://i.ibb.co/PGCh4NhL/1000041976-removebg-preview.png">
+    <meta property="og:url" content="https://akashsingh11ak11-art.github.io/New-public-school-Jawahar-Nagar-/">
+    <meta property="og:type" content="website">
 
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="NPSSS Kota | Admissions Open 2025-26">
-    <meta property="twitter:description" content="Nursery to Class XII English Medium. Secure your child's seat today at New Public Senior Secondary School.">
-    <meta property="twitter:image" content="https://i.ibb.co/PGCh4NhL/1000041976-removebg-preview.png">
-    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,11 +37,12 @@
                         goldBrand: '#D4AF37',  
                         goldLight: '#F3E5AB',
                         lightBg: '#F8F9FA',      
+                        greenPremium: '#1A4D2E', 
                     },
                     boxShadow: {
                         'float': '0 15px 35px -5px rgba(10, 25, 47, 0.1)',
                         'glow': '0 10px 30px -5px rgba(212, 175, 55, 0.4)',
-                        'top': '0 -4px 15px rgba(0,0,0,0.1)',
+                        'goldGlow': '0 10px 30px -5px rgba(212, 175, 55, 0.5)',
                     }
                 }
             }
@@ -52,494 +50,530 @@
     </script>
 
     <style>
-        body { font-family: 'Poppins', sans-serif; background-color: #F8F9FA; overflow-x: hidden; padding-bottom: 60px; }
-        h1, h2, h3, .font-display { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Poppins', sans-serif; background-color: #F8F9FA; overflow-x: hidden; }
+        h1, h2, h3, h4, .font-display { font-family: 'Playfair Display', serif; }
         .glass-nav { background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px); }
-        
-        .reveal { opacity: 0; transition: all 0.9s cubic-bezier(0.16, 1, 0.3, 1); }
-        .reveal.fade-up { transform: translateY(40px); }
-        .reveal.fade-left { transform: translateX(-40px); }
-        .reveal.fade-right { transform: translateX(40px); }
-        .reveal.zoom-in { transform: scale(0.9); }
-        .reveal.active { opacity: 1; transform: translate(0) scale(1); }
-
-        .delay-100 { transition-delay: 100ms; }
-        .delay-200 { transition-delay: 200ms; }
-        .delay-300 { transition-delay: 300ms; }
-        
-        .dropdown:hover .dropdown-menu { display: block; }
-        
-        details > summary { list-style: none; }
-        details > summary::-webkit-details-marker { display: none; }
-        details[open] summary ~ * { animation: sweep .5s ease-in-out; }
-        @keyframes sweep { 0%    {opacity: 0; transform: translateY(-10px)} 100%  {opacity: 1; transform: translateY(0)} }
-        
-        select { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
-        
+        .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
         .float-anim { animation: floatY 4s ease-in-out infinite; }
         @keyframes floatY { 0% { transform: translateY(0px); } 50% { transform: translateY(-12px); } 100% { transform: translateY(0px); } }
-
-        .hide-scrollbar::-webkit-scrollbar { display: none; }
-        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .interactive-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; border: 1px solid #f3f4f6; }
+        .interactive-card:hover { background-color: #0A192F !important; border-color: #D4AF37 !important; transform: translateY(-8px); box-shadow: 0 15px 35px -5px rgba(212, 175, 55, 0.3) !important; }
+        .interactive-card:hover h4, .interactive-card:hover p, .interactive-card:hover i, .interactive-card:hover h3 { color: #ffffff !important; }
+        .portrait-mentor-card { transition: all 0.5s ease-in-out; }
+        .portrait-mentor-card:hover { transform: scale(1.02) translateY(-5px); box-shadow: 0 20px 40px -10px rgba(10, 25, 47, 0.15) !important; }
+        .zoomable-img { transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; z-index: 10; }
+        .img-zoomed { transform: scale(1.1) !important; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2); position: relative; z-index: 50; }
+        marquee span { display: inline-block; padding-right: 50px; }
+        .dropdown:hover .dropdown-menu { display: block; }
+        details > summary { list-style: none; cursor: pointer; }
+        details > summary::-webkit-details-marker { display: none; }
+        details[open] summary ~ * { animation: sweep .5s ease-in-out; }
+        @keyframes sweep { 0% {opacity: 0; transform: translateY(-10px)} 100% {opacity: 1; transform: translateY(0)} }
+        .styled-table th { background-color: #0A192F; color: white; padding: 12px 15px; text-align: left; }
+        .styled-table td { padding: 12px 15px; border-bottom: 1px solid #e5e7eb; }
+        .styled-table tbody tr:hover { background-color: #f3f4f6; }
+        .footer-logo-bg { background-color: transparent !important; }
     </style>
 </head>
-<body class="text-gray-800 antialiased selection:bg-goldBrand selection:text-navyDark">
+<body class="text-gray-800 antialiased pt-20">
 
-    <a href="https://wa.me/918290276772?text=Hello%20NPSSS!%20I%20want%20to%20enquire%20about%20admissions." target="_blank" class="fixed bottom-20 md:bottom-6 right-4 md:right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-glow z-[70] hover:scale-110 transition-all duration-300 float-anim">
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/918290276772" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-glow z-[70] hover:scale-110 transition-all duration-300 float-anim">
         <i class="fab fa-whatsapp"></i>
     </a>
 
+    <!-- HEADER -->
     <header class="fixed w-full top-0 z-50 glass-nav border-b border-gray-200 shadow-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <div class="flex-shrink-0 flex items-center gap-3">
-                    <img src="https://i.ibb.co/PGCh4NhL/1000041976-removebg-preview.png" alt="NPSSS Logo" class="h-10 md:h-12 w-auto object-contain">
+                
+                <!-- Logo and Name -->
+                <div class="flex-shrink-0 flex items-center gap-2 md:gap-3">
+                    <img src="https://i.ibb.co/PGCh4NhL/1000041976-removebg-preview.png" alt="NPSSS Kota Logo" class="h-10 md:h-12 w-auto object-contain">
                     <div>
-                        <h1 class="text-lg md:text-2xl font-black text-navyDark leading-none tracking-wide font-display uppercase">NEW PUBLIC</h1>
-                        <p class="text-[8px] md:text-[10px] font-bold text-goldBrand uppercase tracking-[0.15em] mt-1 font-sans">Senior Secondary School</p>
+                        <h1 class="text-base md:text-2xl font-black text-navyDark leading-none tracking-wide font-display uppercase">NEW PUBLIC</h1>
+                        <p class="text-[7px] md:text-[10px] font-bold text-goldBrand uppercase tracking-[0.1em] mt-1 font-sans">
+                            Sr. Sec. School <br>
+                            <span class="text-red-600 font-black">(Jawahar Nagar)</span>
+                        </p>
                     </div>
                 </div>
                 
-                <nav class="hidden lg:flex space-x-1 font-semibold text-sm text-gray-600 items-center font-sans">
-                    <a href="#about" class="px-3 py-2 rounded-lg hover:text-goldBrand transition-colors">Legacy</a>
-                    <a href="#academics" class="px-3 py-2 rounded-lg hover:text-goldBrand transition-colors">Streams</a>
-                    <a href="#results" class="px-3 py-2 rounded-lg hover:text-goldBrand transition-colors">Results</a>
-                    <a href="#gallery" class="px-3 py-2 rounded-lg hover:text-goldBrand transition-colors">Campus</a>
-                    
-                    <div class="relative dropdown px-3 py-2">
-                        <button class="flex items-center gap-1 hover:text-goldBrand transition-colors">Branches <i class="fa-solid fa-chevron-down text-[10px]"></i></button>
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex space-x-6 font-semibold text-sm text-gray-600 items-center font-sans">
+                    <a href="#about" class="hover:text-goldBrand transition-colors">Our Vision</a>
+                    <a href="#academics" class="hover:text-goldBrand transition-colors">Academics</a>
+                    <a href="#admission-info" class="hover:text-goldBrand transition-colors">Admissions</a>
+                    <a href="#facilities" class="hover:text-goldBrand transition-colors">Facilities</a>
+                    <a href="#faculty" class="hover:text-goldBrand transition-colors">Faculty</a>
+                    <div class="relative dropdown">
+                        <button class="flex items-center gap-1 hover:text-goldBrand">Branches <i class="fa-solid fa-chevron-down text-[10px]"></i></button>
                         <div class="dropdown-menu absolute hidden pt-4 top-full left-0 w-48">
-                            <div class="bg-white rounded-xl shadow-float border border-gray-100 overflow-hidden">
-                                <a href="#" class="block px-4 py-3 text-sm text-gray-700 hover:bg-goldBrand hover:text-navyDark font-bold border-b border-gray-50">Jawahar Nagar (Eng)</a>
-                                <a href="#" class="block px-4 py-3 text-sm text-gray-700 hover:bg-goldBrand hover:text-navyDark font-bold border-b border-gray-50">Vigyan Nagar (Hindi)</a>
-                                <a href="#" class="block px-4 py-3 text-sm text-gray-700 hover:bg-goldBrand hover:text-navyDark font-bold">Main Campus</a>
+                            <div class="bg-white rounded-xl shadow-float border border-gray-100 overflow-hidden text-sm">
+                                <a href="#" class="block px-4 py-3 text-goldBrand bg-navyDark font-bold border-b">Jawahar Nagar (Eng)</a>
+                                <a href="#" class="block px-4 py-3 text-gray-700 hover:bg-goldBrand hover:text-navyDark font-bold">Vigyan Nagar (Hindi)</a>
                             </div>
                         </div>
                     </div>
-
-                    <a href="tel:+918290276772" class="ml-2 bg-gradient-to-r from-goldBrand to-[#B5952F] text-white px-6 py-2.5 rounded-full font-bold hover:shadow-glow transition-all duration-300 flex items-center gap-2 hover:-translate-y-1">
-                        <i class="fa-solid fa-phone"></i> 82902 76772
-                    </a>
                 </nav>
 
-                <div class="lg:hidden flex items-center gap-3">
-                    <a href="tel:+918290276772" class="border-2 border-goldBrand text-goldBrand px-4 py-1.5 rounded-full font-extrabold text-xs flex items-center gap-1.5 shadow-sm active:bg-goldBrand active:text-navyDark transition-colors">
-                        <i class="fa-solid fa-phone text-[10px]"></i> Call
+                <!-- Action Buttons: Always visible Call Button + Mobile Menu Toggle -->
+                <div class="flex items-center gap-2">
+                    <a href="tel:+918290276772" class="bg-navyDark text-white px-3 py-2 text-xs md:text-sm md:px-6 md:py-2.5 rounded-full font-bold hover:bg-goldBrand transition-all flex items-center gap-1.5 shadow-sm whitespace-nowrap">
+                        <i class="fa-solid fa-phone"></i> Call<span class="hidden sm:inline"> Us</span>
                     </a>
-                    <button id="mobile-btn" class="w-10 h-10 flex items-center justify-center bg-gray-100 text-navyDark rounded-lg focus:outline-none active:scale-95 transition-transform">
-                        <i class="fa-solid fa-bars text-xl"></i>
-                    </button>
+                    <button id="mobile-btn" class="lg:hidden w-8 h-8 flex items-center justify-center bg-gray-100 rounded-md"><i class="fa-solid fa-bars-staggered text-sm text-navyDark"></i></button>
                 </div>
             </div>
         </div>
-
-        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-float absolute w-full left-0 transition-all max-h-[80vh] overflow-y-auto font-sans">
-            <div class="px-4 pt-4 pb-8 space-y-2 text-center">
-                <div class="bg-gray-50 p-3 rounded-lg mb-4">
-                    <p class="text-xs font-bold text-gray-400 mb-2 uppercase tracking-widest">Our Campuses</p>
-                    <a href="#" class="block py-2 text-navyDark font-bold text-sm border-b border-gray-200">Jawahar Nagar (Eng)</a>
-                    <a href="#" class="block py-2 text-gray-500 font-semibold text-sm border-b border-gray-200">Vigyan Nagar (Hindi)</a>
-                </div>
-                <a href="#about" class="block px-3 py-3 text-navyDark font-bold hover:bg-lightBg rounded-lg">Legacy</a>
-                <a href="#academics" class="block px-3 py-3 text-navyDark font-bold hover:bg-lightBg rounded-lg">Academics</a>
-                <a href="#results" class="block px-3 py-3 text-navyDark font-bold hover:bg-lightBg rounded-lg">Results</a>
-                <a href="#gallery" class="block px-3 py-3 text-navyDark font-bold hover:bg-lightBg rounded-lg">Campus Photos</a>
-                <a href="#faq" class="block px-3 py-3 text-navyDark font-bold hover:bg-lightBg rounded-lg">FAQs</a>
-            </div>
+        
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 p-6 space-y-4 shadow-xl font-bold">
+            <a href="#about" class="block">Our Vision</a>
+            <a href="#academics" class="block">Academics</a>
+            <a href="#admission-info" class="block">Admissions Info</a>
+            <a href="#facilities" class="block">Facilities</a>
+            <a href="#faculty" class="block">Expert Faculty</a>
+            <a href="#gallery" class="block">Campus Photos</a>
+            <a href="tel:+918290276772" class="block bg-navyDark text-white p-3 rounded-xl text-center border border-navyDark"><i class="fa-solid fa-phone mr-2"></i>Call Us</a>
+            <a href="#admission" class="block bg-goldBrand text-navyDark p-3 rounded-xl text-center">Admission 2026-27</a>
         </div>
     </header>
 
-    <section id="home" class="bg-gradient-to-b from-navyDark to-[#0F172A] pt-32 pb-24 md:pt-40 md:pb-32 relative w-full overflow-hidden border-b-4 border-goldBrand">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <div class="reveal fade-up inline-flex items-center gap-2 py-1.5 px-5 rounded-full bg-goldBrand/20 text-goldBrand font-bold text-xs md:text-sm uppercase tracking-widest mb-8 border border-goldBrand/30 font-sans">
-                <span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-goldBrand opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-goldBrand"></span></span>
-                Admissions Open 2025-26
-            </div>
-            
-            <h2 class="reveal fade-up delay-100 text-4xl md:text-6xl font-black text-white leading-[1.2] mb-6 tracking-tight max-w-4xl mx-auto font-display">
-                Excellence Has No Limits <br><span class="text-goldBrand italic">Nurturing Minds</span> Since 1985
-            </h2>
-            
-            <p class="reveal fade-up delay-200 mt-6 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 font-medium leading-relaxed px-2 font-sans">
-                Experience the premier English Medium Co-educational institution in Kota. Guided by our motto "Serve Your Country".
-            </p>
-            
-            <div class="reveal fade-up delay-300 flex flex-col sm:flex-row justify-center gap-4 px-4 sm:px-0 font-sans">
-                <a href="#admission" class="w-full sm:w-auto bg-goldBrand text-navyDark px-8 py-4 rounded-full font-extrabold text-lg transition-transform duration-300 shadow-glow hover:-translate-y-1 flex items-center justify-center">
-                    Book Admission Now
-                </a>
-            </div>
+    <!-- HERO -->
+    <section id="home" class="bg-gradient-to-b from-navyDark to-[#0F172A] pt-32 pb-20 md:pt-40 md:pb-32 text-center text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 z-10 relative">
+            <div class="reveal inline-flex items-center gap-2 py-1.5 px-5 rounded-full bg-goldBrand/20 text-goldBrand font-bold text-xs uppercase tracking-widest mb-8 border border-goldBrand/30">Admissions Open 2026-27 | English Medium</div>
+            <h2 class="reveal delay-100 text-4xl md:text-7xl font-black mb-6 font-display leading-tight">Excellence Has No Limits <br><span class="text-goldBrand italic">Nurturing Minds</span> Since 1985</h2>
+            <p class="reveal delay-200 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-4">Experience the premier English Medium Co-educational institution in Kota.</p>
+            <p class="reveal delay-200 text-goldBrand font-bold tracking-widest uppercase text-sm mb-12">Motto: "Serve Your Country"</p>
+            <div class="reveal delay-300"><a href="#admission" class="bg-goldBrand text-navyDark px-10 py-5 rounded-full font-black text-lg shadow-glow hover:-translate-y-1 transition-all inline-block uppercase">Book Admission 2026-27</a></div>
         </div>
     </section>
 
-    <section class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-3rem] md:mt-[-4rem] font-sans">
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-            <div class="reveal zoom-in bg-white rounded-2xl shadow-float p-5 md:p-6 text-center border border-gray-100 flex flex-col items-center hover:-translate-y-2 transition-transform">
-                <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 text-navyDark rounded-xl flex items-center justify-center text-xl md:text-2xl mb-3"><i class="fa-solid fa-graduation-cap"></i></div>
-                <h3 class="font-bold text-navyDark text-lg md:text-xl font-display">40 Years</h3>
-                <p class="text-[10px] md:text-xs text-gray-500 mt-1 font-medium">Educational Legacy</p>
-            </div>
-            <div class="reveal zoom-in delay-100 bg-white rounded-2xl shadow-float p-5 md:p-6 text-center border border-gray-100 flex flex-col items-center hover:-translate-y-2 transition-transform">
-                <div class="w-12 h-12 md:w-14 md:h-14 bg-yellow-50 text-goldBrand rounded-xl flex items-center justify-center text-xl md:text-2xl mb-3"><i class="fa-solid fa-building-circle-check"></i></div>
-                <h3 class="font-bold text-navyDark text-lg md:text-xl font-display">RBSE Affiliated</h3>
-                <p class="text-[10px] md:text-xs text-gray-500 mt-1 font-medium">No. 1180823</p>
-            </div>
-            <div class="reveal zoom-in delay-200 bg-white rounded-2xl shadow-float p-5 md:p-6 text-center border border-gray-100 flex flex-col items-center hover:-translate-y-2 transition-transform">
-                <div class="w-12 h-12 md:w-14 md:h-14 bg-green-50 text-green-600 rounded-xl flex items-center justify-center text-xl md:text-2xl mb-3"><i class="fa-solid fa-microscope"></i></div>
-                <h3 class="font-bold text-navyDark text-lg md:text-xl font-display">Modern Labs</h3>
-                <p class="text-[10px] md:text-xs text-gray-500 mt-1 font-medium">Physics, Chemistry, Bio</p>
-            </div>
-            <div class="reveal zoom-in delay-300 bg-white rounded-2xl shadow-float p-5 md:p-6 text-center border border-gray-100 flex flex-col items-center hover:-translate-y-2 transition-transform">
-                <div class="w-12 h-12 md:w-14 md:h-14 bg-red-50 text-red-600 rounded-xl flex items-center justify-center text-xl md:text-2xl mb-3"><i class="fa-solid fa-check-double"></i></div>
-                <h3 class="font-bold text-navyDark text-lg md:text-xl font-display">100% Results</h3>
-                <p class="text-[10px] md:text-xs text-gray-500 mt-1 font-medium">Consistent Performance</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="py-20 bg-lightBg overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row gap-12 items-center">
-                <div class="w-full md:w-5/12 reveal fade-left relative">
-                    <div class="absolute -inset-4 border-2 border-goldBrand rounded-2xl transform translate-x-4 translate-y-4 -z-10 hidden md:block"></div>
-                    <img src="https://i.ibb.co/HZsZXNF/IMG-20260410-180544.jpg" alt="Chairman" class="w-full rounded-2xl shadow-float border-4 border-white object-cover">
-                </div>
-                <div class="w-full md:w-7/12 reveal fade-right delay-100">
-                    <h2 class="text-3xl md:text-5xl font-black text-navyDark mb-4 font-display">Leadership Message</h2>
-                    <p class="text-goldBrand font-semibold italic text-lg mb-6 border-l-4 border-goldBrand pl-4 font-display tracking-wide">"Nurturing young minds and fostering a love for learning."</p>
-                    <p class="text-gray-600 mb-6 leading-relaxed font-sans">As the Chairman of this esteemed institution, I am proud to witness the growth and achievements of our students over the years. We provide a multi-disciplinary eco-system that transforms learners into professional leaders.</p>
-                    <div class="grid grid-cols-2 gap-4 font-sans">
-                        <div>
-                            <h3 class="text-lg font-bold text-navyDark font-display">Shri R. K. Sharma</h3>
-                            <p class="text-goldBrand font-bold text-xs uppercase tracking-widest">Founder & Chairman</p>
-                        </div>
-                        <div>
-                            <h3 class="text-lg font-bold text-navyDark font-display">Nirankush Gautam</h3>
-                            <p class="text-goldBrand font-bold text-xs uppercase tracking-widest">Director</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="academics" class="py-20 bg-white border-t border-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="reveal fade-up text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-3xl md:text-5xl font-black text-navyDark tracking-tight font-display mb-4">Academic Streams (XI-XII)</h2>
-                <p class="text-gray-500 font-medium text-base font-sans">Expert guidance in specialized fields for future innovators.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 font-sans">
-                <div class="reveal fade-up bg-lightBg rounded-2xl p-8 border border-gray-100 hover:border-goldBrand/50 hover:-translate-y-2 transition-all">
-                    <div class="w-14 h-14 bg-navyDark text-goldBrand rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-flask"></i></div>
-                    <h3 class="text-2xl font-bold text-navyDark mb-3 font-display">Science</h3>
-                    <p class="text-gray-500 text-sm leading-relaxed">Physics, Chemistry, Biology & Maths.</p>
-                </div>
-                <div class="reveal fade-up delay-100 bg-lightBg rounded-2xl p-8 border border-gray-100 hover:border-goldBrand/50 hover:-translate-y-2 transition-all">
-                    <div class="w-14 h-14 bg-navyDark text-goldBrand rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-briefcase"></i></div>
-                    <h3 class="text-2xl font-bold text-navyDark mb-3 font-display">Commerce</h3>
-                    <p class="text-gray-500 text-sm leading-relaxed">Accountancy, Economics, Business Study & CS.</p>
-                </div>
-                <div class="reveal fade-up delay-200 bg-lightBg rounded-2xl p-8 border border-gray-100 hover:border-goldBrand/50 hover:-translate-y-2 transition-all">
-                    <div class="w-14 h-14 bg-navyDark text-goldBrand rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-seedling"></i></div>
-                    <h3 class="text-2xl font-bold text-navyDark mb-3 font-display">Agriculture</h3>
-                    <p class="text-gray-500 text-sm leading-relaxed">Agri-Biology & Agri-Chemistry specialization.</p>
-                </div>
-                <div class="reveal fade-up delay-300 bg-lightBg rounded-2xl p-8 border border-gray-100 hover:border-goldBrand/50 hover:-translate-y-2 transition-all">
-                    <div class="w-14 h-14 bg-navyDark text-goldBrand rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-palette"></i></div>
-                    <h3 class="text-2xl font-bold text-navyDark mb-3 font-display">Arts</h3>
-                    <p class="text-gray-500 text-sm leading-relaxed">Geography, History, Pol Science & Home Science.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="results" class="py-20 bg-lightBg border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="reveal fade-up text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-bold text-goldBrand uppercase tracking-[0.2em] font-sans">Wall of Fame</span>
-                <h2 class="text-3xl md:text-5xl font-black text-navyDark mt-3 mb-4 tracking-tight font-display">Our Proud Achievers</h2>
-                <p class="text-gray-500 font-medium text-base font-sans">Consistently delivering outstanding board results year after year.</p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 font-sans">
-                <div class="reveal zoom-in bg-white rounded-3xl p-8 text-center shadow-sm hover:shadow-float hover:-translate-y-2 transition-all border border-gray-100">
-                    <img src="https://i.pravatar.cc/150?img=11" alt="Student" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 p-1 border-2 border-goldBrand">
-                    <p class="text-gray-500 text-xs font-bold uppercase tracking-widest">Science Topper</p>
-                    <h4 class="text-4xl font-black text-navyDark my-1 font-display">98.5%</h4>
-                    <p class="text-base font-bold text-navyDark mt-2">Topper Name</p>
-                    <p class="text-xs font-bold text-goldBrand mt-1">Class 12th</p>
-                </div>
-                <div class="reveal zoom-in delay-100 bg-white rounded-3xl p-8 text-center shadow-sm hover:shadow-float hover:-translate-y-2 transition-all border border-gray-100">
-                    <img src="https://i.pravatar.cc/150?img=5" alt="Student" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 p-1 border-2 border-goldBrand">
-                    <p class="text-gray-500 text-xs font-bold uppercase tracking-widest">Commerce Topper</p>
-                    <h4 class="text-4xl font-black text-navyDark my-1 font-display">97.2%</h4>
-                    <p class="text-base font-bold text-navyDark mt-2">Topper Name</p>
-                    <p class="text-xs font-bold text-goldBrand mt-1">Class 12th</p>
-                </div>
-                <div class="reveal zoom-in delay-200 bg-white rounded-3xl p-8 text-center shadow-sm hover:shadow-float hover:-translate-y-2 transition-all border border-gray-100">
-                    <img src="https://i.pravatar.cc/150?img=15" alt="Student" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 p-1 border-2 border-goldBrand">
-                    <p class="text-gray-500 text-xs font-bold uppercase tracking-widest">Board Topper</p>
-                    <h4 class="text-4xl font-black text-navyDark my-1 font-display">96.8%</h4>
-                    <p class="text-base font-bold text-navyDark mt-2">Topper Name</p>
-                    <p class="text-xs font-bold text-goldBrand mt-1">Class 10th</p>
-                </div>
-                <div class="reveal zoom-in delay-300 bg-white rounded-3xl p-8 text-center shadow-sm hover:shadow-float hover:-translate-y-2 transition-all border border-gray-100">
-                    <img src="https://i.pravatar.cc/150?img=9" alt="Student" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 p-1 border-2 border-goldBrand">
-                    <p class="text-gray-500 text-xs font-bold uppercase tracking-widest">Arts Topper</p>
-                    <h4 class="text-4xl font-black text-navyDark my-1 font-display">95.4%</h4>
-                    <p class="text-base font-bold text-navyDark mt-2">Topper Name</p>
-                    <p class="text-xs font-bold text-goldBrand mt-1">Class 12th</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="gallery" class="py-20 bg-white border-t border-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="reveal fade-up text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl md:text-5xl font-black text-navyDark tracking-tight font-display mb-4">Life at NPSSS</h2>
-                <p class="text-gray-500 font-medium font-sans">State-of-the-art infrastructure facilitating holistic growth.</p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="reveal zoom-in overflow-hidden rounded-xl shadow-sm"><img src="https://i.ibb.co/Lh13wMDg/14.jpg" alt="PT Exercise" class="w-full h-60 object-cover hover:scale-110 transition-transform duration-500"></div>
-                <div class="reveal zoom-in delay-100 overflow-hidden rounded-xl shadow-sm"><img src="https://i.ibb.co/NgC3N3Bc/23.jpg" alt="School Activity" class="w-full h-60 object-cover hover:scale-110 transition-transform duration-500"></div>
-                <div class="reveal zoom-in delay-200 overflow-hidden rounded-xl shadow-sm"><img src="https://i.ibb.co/nMmrRn2r/38.jpg" alt="Gallery" class="w-full h-60 object-cover hover:scale-110 transition-transform duration-500"></div>
-                <div class="reveal zoom-in delay-300 overflow-hidden rounded-xl shadow-sm"><img src="https://i.ibb.co/JjTMw42p/02.jpg" alt="Gallery" class="w-full h-60 object-cover hover:scale-110 transition-transform duration-500"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials" class="py-20 bg-lightBg border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="reveal fade-up text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl md:text-5xl font-black text-navyDark tracking-tight font-display mb-4">What Parents Say</h2>
-                <div class="flex items-center justify-center gap-1 text-goldBrand text-xl mb-4">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p class="text-gray-500 text-sm font-sans">Swipe to read reviews <i class="fa-solid fa-arrow-right-long ml-2"></i></p>
-            </div>
-
-            <div class="reveal fade-up flex overflow-x-auto snap-x snap-mandatory gap-6 pb-8 hide-scrollbar cursor-grab active:cursor-grabbing font-sans">
-                <div class="snap-center shrink-0 w-[90%] md:w-[48%] bg-white p-8 rounded-2xl shadow-float border border-gray-100 relative">
-                    <i class="fa-solid fa-quote-left text-5xl text-gray-100 absolute top-6 left-6"></i>
-                    <p class="text-gray-600 font-medium italic relative z-10 leading-relaxed text-sm md:text-base">"यह विद्यालय हमारे लिए केवल एक शैक्षणिक संस्थान नहीं, बल्कि एक ऐसा आस्था और भरोसे का केंद्र है, जहाँ हमारे बच्चों का सर्वांगीण विकास सुनिश्चित हो रहा है। प्रयोगात्मक कार्यों से लेकर खेलकूद तक हर क्षेत्र में बच्चों को बेहतरीन अवसर मिल रहे हैं।"</p>
-                    <div class="mt-6 flex items-center gap-4">
-                        <div class="w-12 h-12 bg-navyDark text-white rounded-full flex items-center justify-center font-bold text-xl shrink-0 font-display">PV</div>
-                        <div>
-                            <h4 class="font-bold text-navyDark">Pradeep & Geeta Verma</h4>
-                            <p class="text-[10px] md:text-xs text-gray-400">Parents of Sakshi (12th) & Jatin (8th)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="snap-center shrink-0 w-[90%] md:w-[48%] bg-white p-8 rounded-2xl shadow-float border border-gray-100 relative">
-                    <i class="fa-solid fa-quote-left text-5xl text-gray-100 absolute top-6 left-6"></i>
-                    <p class="text-gray-600 font-medium italic relative z-10 leading-relaxed text-sm md:text-base">"विद्यालय में हमें जिस चीज़ ने सबसे ज़्यादा प्रभावित किया, वह है वातावरण की शालीनता, शिक्षकों का समर्पण, और विद्यार्थियों के प्रति व्यक्तिगत लगाव। आज हम पूर्ण विश्वास के साथ कह सकते हैं कि न्यू पब्लिक स्कूल हमारे बच्चों के लिए एक दूसरा घर बन गया है।"</p>
-                    <div class="mt-6 flex items-center gap-4">
-                        <div class="w-12 h-12 bg-goldBrand text-navyDark rounded-full flex items-center justify-center font-bold text-xl shrink-0 font-display">BS</div>
-                        <div>
-                            <h4 class="font-bold text-navyDark">Banwari & Vinita Sharma</h4>
-                            <p class="text-[10px] md:text-xs text-gray-400">Parents of Anjali (12th) & Kanak (6th)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="snap-center shrink-0 w-[90%] md:w-[48%] bg-white p-8 rounded-2xl shadow-float border border-gray-100 relative">
-                    <i class="fa-solid fa-quote-left text-5xl text-gray-100 absolute top-6 left-6"></i>
-                    <p class="text-gray-600 font-medium italic relative z-10 leading-relaxed text-sm md:text-base">"The school has not only provided me with quality education but also played a vital role in shaping my all-round personality. A special thanks to our Principal Sir for the unforgettable experiences."</p>
-                    <div class="mt-6 flex items-center gap-4">
-                        <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center font-bold text-xl shrink-0 font-display">AS</div>
-                        <div>
-                            <h4 class="font-bold text-navyDark">Adarsh Saxena</h4>
-                            <p class="text-[10px] md:text-xs text-gray-400">Ex-student / Alumni</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="faq" class="py-20 bg-white border-t border-gray-100">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="reveal fade-up text-center mb-12">
-                <h2 class="text-3xl md:text-5xl font-black text-navyDark tracking-tight font-display mb-4">Frequently Asked Questions</h2>
-                <p class="text-gray-500 font-medium font-sans">Got questions? We have answers.</p>
-            </div>
-
-            <div class="space-y-4 reveal fade-up font-sans">
-                <details class="bg-lightBg rounded-xl shadow-sm border border-gray-200 overflow-hidden group">
-                    <summary class="px-6 py-4 font-bold text-navyDark cursor-pointer flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        What is the medium of instruction?
-                        <span class="text-goldBrand group-open:rotate-180 transition-transform"><i class="fa-solid fa-chevron-down"></i></span>
-                    </summary>
-                    <div class="px-6 pb-4 text-gray-600 text-sm border-t border-gray-100 pt-3 bg-white">
-                        We offer fully English Medium instruction at our Jawahar Nagar branch. (Hindi medium is available at our Vigyan Nagar branch).
-                    </div>
-                </details>
-                
-                <details class="bg-lightBg rounded-xl shadow-sm border border-gray-200 overflow-hidden group">
-                    <summary class="px-6 py-4 font-bold text-navyDark cursor-pointer flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        What is the admission process?
-                        <span class="text-goldBrand group-open:rotate-180 transition-transform"><i class="fa-solid fa-chevron-down"></i></span>
-                    </summary>
-                    <div class="px-6 pb-4 text-gray-600 text-sm border-t border-gray-100 pt-3 bg-white">
-                        Simply fill out the online admission enquiry form below. Our counselor will contact you within 24 hours to schedule a campus visit and guide you through the documentation process.
-                    </div>
-                </details>
-
-                <details class="bg-lightBg rounded-xl shadow-sm border border-gray-200 overflow-hidden group">
-                    <summary class="px-6 py-4 font-bold text-navyDark cursor-pointer flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        Do you provide transport facilities?
-                        <span class="text-goldBrand group-open:rotate-180 transition-transform"><i class="fa-solid fa-chevron-down"></i></span>
-                    </summary>
-                    <div class="px-6 pb-4 text-gray-600 text-sm border-t border-gray-100 pt-3 bg-white">
-                        Yes, we provide safe and secure vehicle facilities covering major routes across Kota for the convenience of our students.
-                    </div>
-                </details>
-
-                <details class="bg-lightBg rounded-xl shadow-sm border border-gray-200 overflow-hidden group">
-                    <summary class="px-6 py-4 font-bold text-navyDark cursor-pointer flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        What is the fee structure?
-                        <span class="text-goldBrand group-open:rotate-180 transition-transform"><i class="fa-solid fa-chevron-down"></i></span>
-                    </summary>
-                    <div class="px-6 pb-4 text-gray-600 text-sm border-t border-gray-100 pt-3 bg-white">
-                        Our fee structure is highly competitive and designed to make quality education accessible. For exact class-wise fees, please submit an enquiry or call our admission desk.
-                    </div>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <section id="admission" class="py-24 bg-white relative overflow-hidden border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col lg:flex-row gap-12 items-center">
-                <div class="w-full lg:w-1/2 reveal fade-right relative z-10 text-navyDark">
-                    <h2 class="text-3xl md:text-5xl font-black leading-tight mb-6 font-display uppercase tracking-tight">Admission Enquiry</h2>
-                    <p class="text-gray-600 font-medium text-lg mb-8 font-sans">Nursery to Class XII English Medium Admissions Open. Secure your child's seat today!</p>
-                    <ul class="space-y-4 text-gray-700 font-bold font-sans">
-                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-goldBrand text-xl"></i> Skill & Coding Education</li>
-                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-goldBrand text-xl"></i> CCTV Safe Campus</li>
-                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-goldBrand text-xl"></i> Modern Lab Infrastructure</li>
-                    </ul>
-                </div>
-                
-                <div class="w-full lg:w-1/2 reveal fade-left delay-100 relative z-10 font-sans">
-                    <form id="leadForm" class="bg-navyCard p-8 md:p-10 rounded-3xl shadow-glow flex flex-col gap-5 text-left border border-goldBrand/30">
-                        <h3 class="text-2xl font-bold text-white mb-2 font-display">Student Details</h3>
-                        <div>
-                            <input type="text" id="stuName" placeholder="Full Name" class="w-full px-5 py-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-goldBrand focus:ring-2 transition-all font-medium" required>
-                        </div>
-                        <div>
-                            <input type="tel" id="stuPhone" placeholder="Number" class="w-full px-5 py-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-goldBrand focus:ring-2 transition-all font-medium" required>
-                        </div>
-                        <div class="relative">
-                            <select id="stuClass" class="w-full px-5 py-4 rounded-xl bg-white/10 border border-white/20 text-white focus:outline-none focus:border-goldBrand focus:ring-2 transition-all font-medium cursor-pointer pr-10" required style="background-color: #112240;">
-                                <option value="" disabled selected>Target Class...</option>
-                                <option value="Nursery-UKG">Pre-Primary (Nursery-UKG)</option>
-                                <option value="I-VIII">Primary (I-VIII)</option>
-                                <option value="IX-X">Secondary (IX-X)</option>
-                                <option value="XI-XII">Senior Secondary (XI-XII)</option>
-                            </select>
-                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-goldBrand">
-                                <i class="fa-solid fa-chevron-down text-sm"></i>
-                            </div>
-                        </div>
-                        <button type="button" onclick="sendToWhatsApp()" class="w-full bg-goldBrand text-navyDark font-extrabold text-lg py-4 rounded-xl mt-2 hover:-translate-y-1 hover:shadow-glow transition-all flex items-center justify-center gap-2">
-                            Submit <i class="fa-solid fa-paper-plane"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-[#050D1A] text-gray-400 pt-20 pb-10 border-t-4 border-goldBrand">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12 text-center md:text-left">
-                
-                <div class="reveal fade-up">
-                    <img src="https://i.ibb.co/PGCh4NhL/1000041976-removebg-preview.png" alt="Logo" class="h-16 mb-6 mx-auto md:mx-0 object-contain">
-                    <p class="text-sm leading-relaxed mb-6 font-sans">Nurturing young minds since 1985. Established by New Public School Shiksha Samiti, Kota.</p>
-                </div>
-
-                <div class="reveal fade-up delay-100 font-sans">
-                    <h3 class="text-white font-bold text-2xl mb-6 font-display">Reach Us</h3>
-                    <div class="space-y-3">
-                        <div class="flex items-center gap-4 bg-navyCard p-3 rounded-xl border border-white/5 hover:border-goldBrand/50 transition-all">
-                            <div class="w-10 h-10 bg-white/5 text-goldBrand rounded-lg flex items-center justify-center text-lg shrink-0"><i class="fas fa-map-marker-alt"></i></div>
-                            <div class="text-left"><p class="text-xs text-gray-400">Campus Location</p><p class="text-sm font-bold text-gray-200">A1/3 Jawahar Nagar, Kota</p></div>
-                        </div>
-                        <a href="tel:+918290276772" class="flex items-center gap-4 bg-navyCard p-3 rounded-xl border border-white/5 hover:border-goldBrand/50 transition-all">
-                            <div class="w-10 h-10 bg-white/5 text-goldBrand rounded-lg flex items-center justify-center text-lg shrink-0"><i class="fas fa-phone-alt"></i></div>
-                            <div class="text-left"><p class="text-xs text-gray-400">Call Us</p><p class="text-sm font-bold text-gray-200">+91 82902 76772</p></div>
-                        </a>
-                        <a href="mailto:npsss85@gmail.com" class="flex items-center gap-4 bg-navyCard p-3 rounded-xl border border-white/5 hover:border-goldBrand/50 transition-all">
-                            <div class="w-10 h-10 bg-white/5 text-goldBrand rounded-lg flex items-center justify-center text-lg shrink-0"><i class="fas fa-envelope"></i></div>
-                            <div class="text-left"><p class="text-xs text-gray-400">Email Us</p><p class="text-sm font-bold text-gray-200">npsss85@gmail.com</p></div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="reveal fade-up delay-200">
-                    <h3 class="text-white font-bold text-2xl mb-6 font-display">Location Map</h3>
-                    <div class="w-full h-40 rounded-xl overflow-hidden shadow-2xl border border-white/5 bg-navyCard">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115681.29592731265!2d75.7530172023562!3d25.17362253335017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396f9b30c41bb44d%3A0x5f5c103200045588!2sKota%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1713149812988!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-center gap-4 reveal fade-up font-sans">
-                <p>© 2026 NPSSS (RBSE Affiliated No. 1180823). All rights reserved.</p>
-                <p>Designed by <span class="text-goldBrand font-bold uppercase tracking-widest">Apex Web Studio</span></p>
-            </div>
-        </div>
-    </footer>
-
-    <div class="fixed bottom-0 left-0 w-full bg-white shadow-top z-[60] flex md:hidden border-t border-gray-200 font-sans">
-        <a href="tel:+918290276772" class="flex-1 flex flex-col justify-center items-center py-2 text-navyDark border-r border-gray-200 hover:bg-gray-50">
-            <i class="fa-solid fa-phone text-lg mb-0.5"></i>
-            <span class="text-[10px] font-bold uppercase">Call</span>
-        </a>
-        <a href="https://wa.me/918290276772?text=Hello%20NPSSS!%20I%20want%20to%20enquire%20about%20admissions." target="_blank" class="flex-1 flex flex-col justify-center items-center py-2 text-[#25D366] border-r border-gray-200 hover:bg-green-50">
-            <i class="fa-brands fa-whatsapp text-xl mb-0.5"></i>
-            <span class="text-[10px] font-bold uppercase">WhatsApp</span>
-        </a>
-        <a href="#admission" class="flex-[1.5] flex flex-col justify-center items-center py-2 bg-goldBrand text-navyDark hover:bg-[#b5952f]">
-            <span class="text-xs font-black uppercase tracking-wider mb-0.5">Admission</span>
-            <span class="text-[9px] font-bold opacity-80">Open 2025-26</span>
-        </a>
+    <!-- NOTICE BOARD -->
+    <div class="bg-navyDark border-b-2 border-goldBrand text-white py-3 overflow-hidden flex items-center shadow-md relative z-30">
+        <div class="bg-goldBrand text-navyDark font-black px-6 py-1 text-xs md:text-sm uppercase tracking-widest flex items-center gap-2 z-10 font-sans shrink-0"><i class="fa-solid fa-bell animate-bounce"></i> Updates</div>
+        <marquee behavior="scroll" direction="left" scrollamount="6" class="font-sans text-sm font-semibold tracking-wide">
+            <span>🌟 Admissions Open for Session 2026-27 (Nursery to XII)</span>
+            <span>🏆 Congratulations to our Board Toppers for 100% Results!</span>
+            <span>🚌 Smart Classrooms & Transport Facility Available</span>
+            <span>📍 Visit our Jawahar Nagar Campus Today!</span>
+        </marquee>
     </div>
 
-    <script>
-        function sendToWhatsApp() {
-            var name = document.getElementById("stuName").value;
-            var phone = document.getElementById("stuPhone").value;
-            var cls = document.getElementById("stuClass").value;
-            if(!name || !phone || !cls) { alert("Please fill all details!"); return; }
-            var waText = "Hello New Public Senior Secondary School!\n\nI want to enquire about admission.\n\n*Name:* " + name + "\n*WhatsApp:* " + phone + "\n*Class:* " + cls;
-            window.open("https://wa.me/918290276772?text=" + encodeURIComponent(waText), "_blank");
-        }
+    <!-- ABOUT US: VISION & MISSION -->
+    <section id="about" class="py-24 bg-lightBg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <span class="text-xs font-bold text-goldBrand uppercase tracking-[0.2em]">Our Philosophy</span>
+                <h2 class="text-3xl md:text-5xl font-black text-navyDark mt-3">Vision & Mission</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="reveal bg-white p-10 rounded-[2rem] border-l-4 border-goldBrand shadow-sm">
+                    <div class="w-14 h-14 bg-navyDark text-goldBrand rounded-full flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-eye"></i></div>
+                    <h3 class="text-2xl font-black text-navyDark mb-4 font-display">Our Vision</h3>
+                    <p class="text-gray-600 leading-relaxed">We are known globally for value-added educational innovation at the intersection of discipline in service of mankind.</p>
+                </div>
+                <div class="reveal delay-100 bg-white p-10 rounded-[2rem] border-l-4 border-navyDark shadow-sm">
+                    <div class="w-14 h-14 bg-goldBrand text-navyDark rounded-full flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3 class="text-2xl font-black text-navyDark mb-4 font-display">Our Mission</h3>
+                    <ul class="space-y-3 text-gray-600 list-disc pl-4">
+                        <li>To develop a dynamic outcome-based teaching-learning process.</li>
+                        <li>Place a multi-disciplinary eco-system that transforms learners into future innovators and professional leaders.</li>
+                        <li>To provide an environment for enhancing knowledge, critical & design thinking, and life skills.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        document.addEventListener('DOMContentLoaded', () => {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('active');
-                    }
-                });
-            }, { threshold: 0.15 });
-            document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+    <!-- LEADERSHIP -->
+    <section class="py-24 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <span class="text-xs font-bold text-goldBrand uppercase tracking-[0.2em]">Our Mentors</span>
+                <h2 class="text-3xl md:text-5xl font-black text-navyDark mt-3">Leadership Message</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="portrait-mentor-card reveal bg-lightBg p-6 rounded-[2.5rem] border border-gray-200">
+                    <div class="w-9/12 lg:h-[30rem] h-[22rem] mx-auto rounded-3xl overflow-hidden shadow-float border-4 border-white object-top relative mb-8">
+                        <img src="https://i.ibb.co/HZsZXNF/IMG-20260410-180544.jpg" alt="Chairman Shri R. K. Sharma" class="w-full h-full object-cover zoomable-img object-top">
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl text-center shadow-sm -mt-16 relative z-10 mx-6 border border-gray-100 mb-6">
+                        <h4 class="text-xl font-bold text-navyDark font-display">Shri R. K. Sharma</h4>
+                        <p class="text-goldBrand font-bold text-[10px] uppercase tracking-widest mt-1">Founder & Chairman</p>
+                    </div>
+                    <div class="pt-2 px-6">
+                        <p class="text-gray-700 italic leading-relaxed text-sm lg:text-base border-l-4 border-goldBrand pl-4">"Welcome to NPSSS Kota. We believe in nurturing young minds and fostering a love for learning. Admissions for 2026-27 are now open."</p>
+                    </div>
+                </div>
+                <div class="portrait-mentor-card reveal delay-200 bg-lightBg p-6 rounded-[2.5rem] border border-gray-200">
+                    <div class="w-9/12 lg:h-[30rem] h-[22rem] mx-auto rounded-3xl overflow-hidden shadow-float border-4 border-white object-top relative mb-8">
+                        <img src="https://i.ibb.co/bRKKkP56/37.jpg" alt="Director Nirankush Gautam" class="w-full h-full object-cover zoomable-img object-top">
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl text-center shadow-sm -mt-16 relative z-10 mx-6 border border-gray-100 mb-6">
+                        <h4 class="text-xl font-bold text-navyDark font-display">Nirankush Gautam</h4>
+                        <p class="text-goldBrand font-bold text-[10px] uppercase tracking-widest mt-1">Director</p>
+                    </div>
+                    <div class="pt-2 px-6">
+                        <p class="text-gray-700 italic leading-relaxed text-sm lg:text-base border-l-4 border-navyDark pl-4">"We believe in holistic development. Extra-curricular activities are organized to ensure comprehensive growth alongside academics."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            const btn = document.getElementById('mobile-btn');
-            const menu = document.getElementById('mobile-menu');
-            btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+    <!-- FACULTY SECTION -->
+    <section id="faculty" class="py-28 bg-navyDark border-t-8 border-goldBrand relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 text-center relative z-10">
+            <div class="reveal mb-16">
+                <span class="text-xs font-bold text-goldBrand uppercase tracking-[0.2em] font-sans">Core Contributors</span>
+                <h2 class="text-3xl md:text-5xl font-black text-white mt-3 mb-4 font-display">Our Top Faculty</h2>
+                <p class="text-gray-300 font-medium max-w-2xl mx-auto">Experienced and dedicated educators shaping the future for session 2026-27.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Faculty 1 (MALE) -> Pawan Sahu -->
+                <div class="reveal bg-white rounded-[2.5rem] p-10 text-center shadow-xl hover:-translate-y-4 transition-all duration-500 group border border-transparent hover:border-goldBrand">
+                    <div class="relative w-32 h-32 mx-auto mb-6 bg-greenPremium rounded-full p-2 overflow-hidden border-4 border-goldBrand shadow-goldGlow">
+                        <img src="https://i.ibb.co/0yPpDgx8/29.jpg" alt="Pawan Sahu" class="w-full h-full rounded-full object-cover object-top zoomable-img">
+                    </div>
+                    <h4 class="font-bold text-navyDark font-display text-2xl mb-2 group-hover:text-goldBrand transition-colors">Pawan Sahu</h4>
+                    <p class="text-[11px] text-gray-500 font-bold uppercase tracking-widest">Senior Academician</p>
+                </div>
+                <!-- Faculty 2 (MALE) -> Jankilal Gautam -->
+                <div class="reveal delay-100 bg-white rounded-[2.5rem] p-10 text-center shadow-xl hover:-translate-y-4 transition-all duration-500 group border border-transparent hover:border-goldBrand">
+                    <div class="relative w-32 h-32 mx-auto mb-6 bg-greenPremium rounded-full p-2 overflow-hidden border-4 border-goldBrand shadow-goldGlow">
+                        <img src="https://i.ibb.co/MxRTvrfx/30.jpg" alt="Jankilal Gautam" class="w-full h-full rounded-full object-cover object-top zoomable-img">
+                    </div>
+                    <h4 class="font-bold text-navyDark font-display text-2xl mb-2 group-hover:text-goldBrand transition-colors">Jankilal Gautam</h4>
+                    <p class="text-[11px] text-gray-500 font-bold uppercase tracking-widest">Senior Academician</p>
+                </div>
+                <!-- Faculty 3 (FEMALE) -> Kiran Malhotra -->
+                <div class="reveal delay-200 bg-white rounded-[2.5rem] p-10 text-center shadow-xl hover:-translate-y-4 transition-all duration-500 group border border-transparent hover:border-goldBrand">
+                    <div class="relative w-32 h-32 mx-auto mb-6 bg-greenPremium rounded-full p-2 overflow-hidden border-4 border-goldBrand shadow-goldGlow">
+                        <img src="https://i.ibb.co/Z1dhRF0D/28.jpg" alt="Kiran Malhotra" class="w-full h-full rounded-full object-cover object-top zoomable-img">
+                    </div>
+                    <h4 class="font-bold text-navyDark font-display text-2xl mb-2 group-hover:text-goldBrand transition-colors">Kiran Malhotra</h4>
+                    <p class="text-[11px] text-gray-500 font-bold uppercase tracking-widest">Senior Academician</p>
+                </div>
+                <!-- Faculty 4 (MALE) -> Santosh Kahar -->
+                <div class="reveal delay-300 bg-white rounded-[2.5rem] p-10 text-center shadow-xl hover:-translate-y-4 transition-all duration-500 group border border-transparent hover:border-goldBrand">
+                    <div class="relative w-32 h-32 mx-auto mb-6 bg-greenPremium rounded-full p-2 overflow-hidden border-4 border-goldBrand shadow-goldGlow">
+                        <img src="https://i.ibb.co/mr1Vz2k8/25.jpg" alt="Santosh Kahar" class="w-full h-full rounded-full object-cover object-top zoomable-img">
+                    </div>
+                    <h4 class="font-bold text-navyDark font-display text-2xl mb-2 group-hover:text-goldBrand transition-colors">Santosh Kahar</h4>
+                    <p class="text-[11px] text-gray-500 font-bold uppercase tracking-widest">Senior Academician</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACADEMICS -->
+    <section id="academics" class="py-24 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="reveal mb-16">
+                <h2 class="text-3xl md:text-5xl font-black text-navyDark mb-4">Academic Streams (XI-XII)</h2>
+                <p class="text-gray-500 font-medium">Expert guidance in specialized fields for future innovators.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="interactive-card reveal bg-lightBg p-8 rounded-[2rem]">
+                    <i class="fa-solid fa-flask text-4xl text-blue-500 mb-4"></i>
+                    <h4 class="text-xl font-bold text-navyDark mb-3">Science</h4>
+                    <p class="text-gray-500 text-sm">Physics, Chemistry, Biology & Maths.</p>
+                </div>
+                <div class="interactive-card reveal delay-100 bg-lightBg p-8 rounded-[2rem]">
+                    <i class="fa-solid fa-coins text-4xl text-goldBrand mb-4"></i>
+                    <h4 class="text-xl font-bold text-navyDark mb-3">Commerce</h4>
+                    <p class="text-gray-500 text-sm">Accountancy, Economics, Business Study & Maths/CS.</p>
+                </div>
+                <div class="interactive-card reveal delay-200 bg-lightBg p-8 rounded-[2rem]">
+                    <i class="fa-solid fa-leaf text-4xl text-green-600 mb-4"></i>
+                    <h4 class="text-xl font-bold text-navyDark mb-3">Agriculture</h4>
+                    <p class="text-gray-500 text-sm">Agriculture, Agri-Biology & Agri-Chemistry.</p>
+                </div>
+                <div class="interactive-card reveal delay-300 bg-lightBg p-8 rounded-[2rem]">
+                    <i class="fa-solid fa-palette text-4xl text-purple-600 mb-4"></i>
+                    <h4 class="text-xl font-bold text-navyDark mb-3">Arts</h4>
+                    <p class="text-gray-500 text-sm">Geography, History, Pol. Science, Home Science & Literature.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADMISSION INFO -->
+    <section id="admission-info" class="py-24 bg-lightBg border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center reveal mb-16">
+                <span class="text-xs font-bold text-goldBrand uppercase tracking-[0.2em]">Guidelines</span>
+                <h2 class="text-3xl md:text-5xl font-black text-navyDark mt-3 mb-4">Admission 2026-27</h2>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="reveal bg-white rounded-[2rem] p-8 border border-gray-200 shadow-sm overflow-hidden">
+                    <h3 class="text-2xl font-bold text-navyDark mb-6 font-display flex items-center gap-3"><i class="fa-solid fa-child-reaching text-goldBrand"></i> Age Criteria</h3>
+                    <div class="overflow-x-auto rounded-xl shadow-sm border border-gray-200">
+                        <table class="w-full text-sm text-left styled-table bg-white">
+                            <thead>
+                                <tr><th>Class</th><th>Age Criteria</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="font-bold">Nursery</td><td>3 yrs. - 4 yrs.</td></tr>
+                                <tr><td class="font-bold">L.K.G.</td><td>4 yrs. - 5 yrs.</td></tr>
+                                <tr><td class="font-bold">U.K.G.</td><td>5 yrs. - 6 yrs.</td></tr>
+                                <tr><td class="font-bold">Class I</td><td>6 yrs. - 7 yrs.</td></tr>
+                                <tr><td class="font-bold">Class II</td><td>7 yrs. - 8 yrs.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="reveal delay-200 flex flex-col gap-6 text-white">
+                    <div class="bg-navyDark p-8 rounded-[2rem] border-t-4 border-goldBrand shadow-glow">
+                        <h3 class="text-2xl font-bold mb-6 font-display flex items-center gap-3"><i class="fa-regular fa-clock text-goldBrand"></i> School Timings</h3>
+                        <p class="mb-4 text-gray-200">Summer: 7:45 AM - 1:45 PM</p>
+                        <p class="text-gray-200">Winter: 8:15 AM - 2:15 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES -->
+    <section id="facilities" class="py-24 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="reveal mb-16">
+                <h2 class="text-3xl md:text-5xl font-black text-navyDark mt-3 mb-10">World-Class Facilities</h2>
+            </div>
             
-            document.querySelectorAll('#mobile-menu a').forEach(link => {
-                link.addEventListener('click', () => menu.classList.add('hidden'));
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 mb-10">
+                <div class="reveal bg-lightBg p-6 rounded-3xl shadow-sm border border-gray-200 hover:bg-navyDark group transition-all duration-300 cursor-pointer">
+                    <div class="text-3xl text-navyDark group-hover:text-goldBrand mb-3"><i class="fa-solid fa-building-columns"></i></div>
+                    <h3 class="text-xl font-bold text-navyDark group-hover:text-white font-display">Since 1985</h3>
+                </div>
+                <div class="reveal delay-100 bg-lightBg p-6 rounded-3xl shadow-sm border border-gray-200 hover:bg-navyDark group transition-all duration-300 cursor-pointer">
+                    <div class="text-3xl text-goldBrand"><i class="fa-solid fa-building-circle-check"></i></div>
+                    <h3 class="text-xl font-bold text-navyDark group-hover:text-white mt-3 font-display">RBSE Affiliated</h3>
+                </div>
+                <div class="reveal delay-200 bg-lightBg p-6 rounded-3xl shadow-sm border border-gray-200 hover:bg-navyDark group transition-all duration-300 cursor-pointer">
+                    <div class="text-3xl text-green-600 group-hover:text-goldBrand"><i class="fa-solid fa-microscope"></i></div>
+                    <h3 class="text-xl font-bold text-navyDark group-hover:text-white mt-3 font-display">Modern Labs</h3>
+                </div>
+                <div class="reveal delay-300 bg-lightBg p-6 rounded-3xl shadow-sm border border-gray-200 hover:bg-navyDark group transition-all duration-300 cursor-pointer">
+                    <div class="text-3xl text-red-600 group-hover:text-goldBrand"><i class="fa-solid fa-star"></i></div>
+                    <h3 class="text-xl font-bold text-navyDark group-hover:text-white mt-3 font-display">100% Results</h3>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="interactive-card reveal bg-lightBg p-8 rounded-3xl border border-gray-100">
+                    <i class="fa-solid fa-chalkboard-user text-4xl text-navyDark mb-4"></i>
+                    <h3 class="font-bold text-navyDark text-lg">Smart Classes</h3>
+                </div>
+                <div class="interactive-card reveal delay-100 bg-lightBg p-8 rounded-3xl border border-gray-100">
+                    <i class="fa-solid fa-laptop-code text-4xl text-navyDark mb-4"></i>
+                    <h3 class="font-bold text-navyDark text-lg">Computer Lab</h3>
+                </div>
+                <div class="interactive-card reveal delay-200 bg-lightBg p-8 rounded-3xl border border-gray-100">
+                    <i class="fa-solid fa-bus text-4xl text-navyDark mb-4"></i>
+                    <h3 class="font-bold text-navyDark text-lg">Safe Transport</h3>
+                </div>
+                <div class="interactive-card reveal delay-300 bg-lightBg p-8 rounded-3xl border border-gray-100">
+                    <i class="fa-solid fa-video text-4xl text-navyDark mb-4"></i>
+                    <h3 class="font-bold text-navyDark text-lg">CCTV Campus</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results" class="py-24 bg-lightBg border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="reveal mb-16">
+                <h2 class="text-3xl md:text-5xl font-black text-navyDark mt-3">Our Proud Achievers</h2>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="reveal bg-white rounded-3xl p-8 text-center shadow-sm border border-gray-100 hover:shadow-float hover:-translate-y-2 transition-all duration-300 group cursor-pointer">
+                    <div class="overflow-hidden w-28 h-28 mx-auto rounded-full mb-4 border-4 border-goldBrand p-1 group-hover:border-navyDark transition-colors duration-300 shadow-sm">
+                        <img src="https://i.ibb.co/9mR93crj/01.jpg" alt="Nandani Goyal NPSSS Kota" class="w-full h-full rounded-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h4 class="text-4xl font-black text-navyDark group-hover:text-goldBrand transition-colors">96.20%</h4>
+                    <p class="text-base font-bold text-navyDark mt-2">Nandani Goyal</p>
+                    <p class="text-xs text-goldBrand font-bold uppercase">Class 12th (Commerce)</p>
+                </div>
+                <div class="reveal delay-100 bg-white rounded-3xl p-8 text-center shadow-sm border border-gray-100 hover:shadow-float hover:-translate-y-2 transition-all duration-300 group cursor-pointer">
+                    <div class="overflow-hidden w-28 h-28 mx-auto rounded-full mb-4 border-4 border-goldBrand p-1 group-hover:border-navyDark transition-colors duration-300 shadow-sm">
+                        <img src="https://i.ibb.co/YT2TKgQg/15.jpg" alt="Naman Jain NPSSS Kota" class="w-full h-full rounded-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h4 class="text-4xl font-black text-navyDark group-hover:text-goldBrand transition-colors">91.00%</h4>
+                    <p class="text-base font-bold text-navyDark mt-2">Naman Jain</p>
+                    <p class="text-xs text-goldBrand font-bold uppercase">Class 12th (Science)</p>
+                </div>
+                <div class="reveal delay-200 bg-white rounded-3xl p-8 text-center shadow-sm border border-gray-100 hover:shadow-float hover:-translate-y-2 transition-all duration-300 group cursor-pointer">
+                    <div class="overflow-hidden w-28 h-28 mx-auto rounded-full mb-4 border-4 border-goldBrand p-1 group-hover:border-navyDark transition-colors duration-300 shadow-sm">
+                        <img src="https://i.ibb.co/PG2M2fCv/05.jpg" alt="Pooja Patel NPSSS Kota" class="w-full h-full rounded-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h4 class="text-4xl font-black text-navyDark group-hover:text-goldBrand transition-colors">90.00%</h4>
+                    <p class="text-base font-bold text-navyDark mt-2">Pooja Patel</p>
+                    <p class="text-xs text-goldBrand font-bold uppercase">Class 12th (Arts)</p>
+                </div>
+                <div class="reveal delay-300 bg-white rounded-3xl p-8 text-center shadow-sm border border-gray-100 hover:shadow-float hover:-translate-y-2 transition-all duration-300 group cursor-pointer">
+                    <div class="overflow-hidden w-28 h-28 mx-auto rounded-full mb-4 border-4 border-goldBrand p-1 group-hover:border-navyDark transition-colors duration-300 shadow-sm">
+                        <img src="https://i.ibb.co/jkLH2T2L/11.jpg" alt="Shiba Khan NPSSS Kota" class="w-full h-full rounded-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h4 class="text-4xl font-black text-navyDark group-hover:text-goldBrand transition-colors">88.50%</h4>
+                    <p class="text-base font-bold text-navyDark mt-2">Shiba Khan</p>
+                    <p class="text-xs text-goldBrand font-bold uppercase">Class 10th (Board)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-black text-navyDark mb-16">Life at NPSSS</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="https://i.ibb.co/Lh13wMDg/14.jpg" alt="NPSSS Kota Activity" class="w-full h-48 md:h-64 object-cover rounded-2xl shadow-float zoomable-img">
+                <img src="https://i.ibb.co/NgC3N3Bc/23.jpg" alt="NPSSS Kota PT" class="w-full h-48 md:h-64 object-cover rounded-2xl shadow-float zoomable-img">
+                <img src="https://i.ibb.co/nMmrRn2r/38.jpg" alt="NPSSS Kota Lab" class="w-full h-48 md:h-64 object-cover rounded-2xl shadow-float zoomable-img">
+                <img src="https://i.ibb.co/JjTMw42p/02.jpg" alt="NPSSS Kota Campus" class="w-full h-48 md:h-64 object-cover rounded-2xl shadow-float zoomable-img">
+                <img src="https://i.ibb.co/FLHyd7Rs/32.jpg" alt="NPSSS Gallery" class="w-full h-48 md:h-64 object-cover rounded-2xl shadow-float zoomable-img">
+                <img src="https://i.ibb.co/QFspKnjb/15-1.jpg" alt="NPSSS Gallery" class="w-full h-48 md:h-64 object-cover rounded-2xl shadow-float zoomable-img">
+                <img src="https://i.ibb.co/G37jX7c2/06-1.jpg" alt="NPSSS Gallery" class="w-full h-48 md:h-64 object-cover rounded-2xl shadow-float zoomable-img">
+                <img src="https://i.ibb.co/G48WVX4D/05-1.jpg" alt="NPSSS Gallery" class="w-full h-48 md:h-64 object-cover rounded-2xl shadow-float zoomable-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS (6 REVIEWS) -->
+    <section class="py-24 bg-lightBg border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-black text-navyDark mb-16">What Parents & Students Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                <div class="reveal bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm hover:shadow-float">
+                    <p class="text-gray-600 italic text-sm mb-8 leading-relaxed">"यह विद्यालय हमारे लिए केवल एक शैक्षणिक संस्थान नहीं, बल्कि एक ऐसा आस्था और भरोसे का केंद्र है, जहाँ हमारे बच्चों का सर्वांगीण विकास सुनिश्चित हो रहा है।"</p>
+                    <h4 class="font-bold text-navyDark">Pradeep & Geeta Verma</h4>
+                    <p class="text-[10px] text-goldBrand font-bold uppercase mt-1">Parents</p>
+                </div>
+                <div class="reveal delay-100 bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm hover:shadow-float">
+                    <p class="text-gray-600 italic text-sm mb-8 leading-relaxed">"विद्यालय में हमें जिस चीज़ ने सबसे ज़्यादा प्रभावित किया, वह है वातावरण की शालीनता, शिक्षकों का समर्पण, और विद्यार्थियों के प्रति व्यक्तिगत लगाव।"</p>
+                    <h4 class="font-bold text-navyDark">Banwari & Vinita Sharma</h4>
+                    <p class="text-[10px] text-goldBrand font-bold uppercase mt-1">Parents</p>
+                </div>
+                <div class="reveal delay-200 bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm hover:shadow-float">
+                    <p class="text-gray-600 italic text-sm mb-8 leading-relaxed">"The school has not only provided me with quality education but also played a vital role in shaping my all-round personality."</p>
+                    <h4 class="font-bold text-navyDark">Adarsh Saxena</h4>
+                    <p class="text-[10px] text-goldBrand font-bold uppercase mt-1">Alumni</p>
+                </div>
+                <div class="reveal bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm hover:shadow-float">
+                    <p class="text-gray-600 italic text-sm mb-8 leading-relaxed">"School ka infrastructure aur teaching staff dono hi behtareen hain. Mere bacche ki performance mein pichle saal mein kaafi sudhaar aaya hai."</p>
+                    <h4 class="font-bold text-navyDark">Aditi Sharma</h4>
+                    <p class="text-[10px] text-goldBrand font-bold uppercase mt-1">Parent</p>
+                </div>
+                <div class="reveal delay-100 bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm hover:shadow-float">
+                    <p class="text-gray-600 italic text-sm mb-8 leading-relaxed">"New Public School Kota ka sabse purana aur bharosemand school hai. Yahan ka discipline aur environment bacchon ke future ke liye best hai."</p>
+                    <h4 class="font-bold text-navyDark">Sameer Khan</h4>
+                    <p class="text-[10px] text-goldBrand font-bold uppercase mt-1">Alumni</p>
+                </div>
+                <div class="reveal delay-200 bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm hover:shadow-float">
+                    <p class="text-gray-600 italic text-sm mb-8 leading-relaxed">"Smart classes aur modern labs ne padhai ko bahut aasaan bana diya hai. Kota mein Science aur Commerce streams ke liye NPSSS se behtar vikalp nahi."</p>
+                    <h4 class="font-bold text-navyDark">Rahul Meena</h4>
+                    <p class="text-[10px] text-goldBrand font-bold uppercase mt-1">Student</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADMISSION FORM -->
+    <section id="admission" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <div class="reveal bg-navyDark p-10 md:p-16 rounded-[3rem] text-white shadow-glow border-t-8 border-goldBrand">
+                    <h2 class="text-3xl md:text-5xl font-black mb-8 leading-tight">Enquiry 2026-27</h2>
+                    <form onsubmit="sendToWhatsApp(event)" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <input type="text" id="stu-name" placeholder="Student Name" required class="px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white w-full">
+                            <input type="tel" id="stu-phone" placeholder="Parent Mobile" required class="px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white w-full">
+                        </div>
+                        <input type="text" id="stu-addr" placeholder="Area / Address" required class="px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white w-full">
+                        <select id="stu-class" class="px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-gray-300 w-full font-semibold">
+                            <option value="Pre-Primary">Pre-Primary (Nursery-UKG)</option>
+                            <option value="Primary">Primary (I-VIII)</option>
+                            <option value="Secondary">Secondary (IX-X)</option>
+                            <option value="Senior Secondary">Senior Secondary (XI-XII)</option>
+                        </select>
+                        <button type="submit" class="w-full bg-goldBrand text-navyDark font-black py-5 rounded-2xl hover:bg-goldLight transition-all uppercase text-lg">Send Enquiry via WhatsApp</button>
+                    </form>
+                </div>
+                <div class="reveal delay-200 bg-lightBg p-4 rounded-[3rem] border border-gray-200 flex flex-col min-h-[400px]">
+                    <div class="p-8">
+                        <h4 class="text-2xl font-black text-navyDark mb-2 flex items-center gap-3"><i class="fa-solid fa-location-dot text-red-500"></i> Our Campus</h4>
+                        <p class="text-sm text-gray-500 font-bold">A1/3 New Jawahar Nagar, Kota, Rajasthan</p>
+                    </div>
+                    <!-- FIXED GOOGLE MAP EMBED (Highlights School) -->
+                    <div class="flex-grow rounded-[2.5rem] overflow-hidden m-2 border-2 border-dashed border-gray-300">
+                        <iframe src="https://maps.google.com/maps?q=New%20Public%20Senior%20Secondary%20School,%20Jawahar%20Nagar,%20Kota&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (CIRCULAR LOGO) -->
+    <footer class="bg-navyDark py-20 text-white border-t-8 border-goldBrand">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-16">
+            <div class="flex flex-col items-center md:items-start text-center md:text-left">
+                <div class="w-24 h-24 mb-6 flex justify-center items-center">
+                    <img src="https://i.ibb.co/PGCh4NhL/1000041976-removebg-preview.png" alt="NPSSS Logo" class="w-full h-full object-contain filter drop-shadow-lg">
+                </div>
+                <p class="text-gray-400 text-sm leading-relaxed">Nurturing young minds since 1985. Kota's premier school for session 2026-27. Established by New Public School Shiksha Samiti.</p>
+            </div>
+            <div class="text-center md:text-left">
+                <h4 class="text-xl font-bold mb-8 text-goldBrand uppercase tracking-widest font-display">Reach Us</h4>
+                <p class="text-gray-300 font-bold text-sm mb-4"><i class="fa-solid fa-phone text-goldBrand mr-3"></i> 0744-3559854, 8290276772</p>
+                <p class="text-gray-300 font-bold text-sm mb-4"><i class="fa-solid fa-envelope text-goldBrand mr-3"></i> npsss85@gmail.com</p>
+            </div>
+            <div class="text-center md:text-left">
+                <h4 class="text-xl font-bold mb-8 text-goldBrand uppercase tracking-widest font-display">Legacy</h4>
+                <p class="text-gray-400 text-sm">Delivering excellence for over 4 decades in Jawahar Nagar, Kota. RBSE Affiliated No. 1180823.</p>
+            </div>
+        </div>
+        <div class="text-center mt-20 pt-8 border-t border-white/5 text-[10px] text-gray-500 uppercase tracking-widest">© 2026 NPSSS Kota | Designed by <span class="text-goldBrand font-bold">Apex Web Studio</span></div>
+    </footer>
+
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                if (elementTop < windowHeight - 50) reveals[i].classList.add("active");
+            }
+        }
+        window.addEventListener("scroll", function() {
+            reveal();
+            document.querySelectorAll('.zoomable-img').forEach(img => img.classList.remove('img-zoomed'));
+        });
+        reveal();
+        document.getElementById('mobile-btn').addEventListener('click', () => document.getElementById('mobile-menu').classList.toggle('hidden'));
+        document.querySelectorAll('.zoomable-img').forEach(img => {
+            img.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const wasZoomed = this.classList.contains('img-zoomed');
+                document.querySelectorAll('.zoomable-img').forEach(i => i.classList.remove('img-zoomed'));
+                if (!wasZoomed) this.classList.add('img-zoomed');
             });
         });
+        document.addEventListener('click', () => document.querySelectorAll('.zoomable-img').forEach(img => img.classList.remove('img-zoomed')));
+        function sendToWhatsApp(event) {
+            event.preventDefault();
+            const name = document.getElementById('stu-name').value;
+            const phone = document.getElementById('stu-phone').value;
+            const addr = document.getElementById('stu-addr').value;
+            const targetClass = document.getElementById('stu-class').value;
+            const message = `Hello NPSSS!\nI want to enquire about admission 2026-27.\n\n*Student:* ${name}\n*Parent Phone:* ${phone}\n*Address:* ${addr}\n*Class:* ${targetClass}`;
+            window.location.href = `https://wa.me/918290276772?text=${encodeURIComponent(message)}`;
+        }
     </script>
 </body>
 </html>
